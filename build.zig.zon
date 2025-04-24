@@ -1,0 +1,16 @@
+.{
+    .name = .zpaq,
+    .fingerprint = 0x2ad3ecf887725dd9,
+    .minimum_zig_version = "0.14.0",
+    .version = "7.15.0",
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://github.com/zpaq/zpaq#9ab539f644e364f0d92e2918b90ce2534c75653f",
+            .hash = "N-V-__8AAPR3BwAAoxg-9zliaFckqrSCCR3qRVkQw-Ko8vuP",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
